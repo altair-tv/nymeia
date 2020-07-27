@@ -1,11 +1,3 @@
-# `alticons-react`
+# @nymeia/alticons-react
 
-> TODO: description
-
-## Usage
-
-```
-const alticonsReact = require('alticons-react');
-
-// TODO: DEMONSTRATE API
-```
+[![npm version](https://img.shields.io/npm/v/@nymeia/alticons-react.svg)](https://www.npmjs.org/package/@nymeia/alticons-react)
