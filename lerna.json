@@ -1,6 +1,18 @@
 {
-  "packages": ["packages/*"],
   "version": "0.0.0",
   "npmClient": "yarn",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "command": {
+    "create": {
+      "homepage": "https://github.com/altairtv/nymeia",
+      "license": "MIT"
+    },
+    "version": {
+      "allowBranch": "main",
+      "conventionalCommits": true,
+      "exact": true,
+      "message": "chore(release): %s"
+    }
+  },  
+  "packages": ["packages/*"]
 }
