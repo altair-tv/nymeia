@@ -9,8 +9,6 @@
     },
     "version": {
       "allowBranch": "main",
-      "conventionalCommits": true,
-      "exact": true,
       "message": "chore(release): %s"
     }
   },  
