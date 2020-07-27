@@ -1,26 +1,43 @@
 {
   "name": "@nymeia/alticons-react",
   "version": "0.0.0",
-  "description": "> TODO: description",
-  "author": "Bryan Veloso <bryan@avalonstar.com>",
+  "description": "A set of icons crafted with love by Altair.",
+  "author": "Altair Interactive, Inc.",
   "homepage": "https://github.com/altairtv/nymeia/tree/master/packages/alticons-react#readme",
   "license": "MIT",
-  "main": "lib/alticons-react.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "sideEffects": false,
+  "types": "dist/index.d.ts",  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/altairtv/nymeia.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "node script/build.js && node script/types.js",
+    "prepare": "yarn build && microbundle --no-compress --jsx React.createElement",
+    "watch": "microbundle watch --no-compress --jsx React.createElement"
   },
+  "keywords": [
+    "Altair",
+    "icons",
+    "svg",
+    "alticons",
+    "react"
+  ],
   "bugs": {
     "url": "https://github.com/altairtv/nymeia/issues"
+  },
+  "devDependencies": {    
+    "fs-extra": "^9.0.1",
+    "jest": "^26.1.0",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rollup": "^2.23.0",
+    "typescript": "^3.9.7"
+  },
+  "peerDependencies": {
+    "react": ">=15"
   }
 }
