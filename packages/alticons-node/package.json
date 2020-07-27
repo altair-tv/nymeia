@@ -1,27 +1,31 @@
 {
   "name": "@nymeia/alticons",
   "version": "0.0.0",
-  "description": "> TODO: description",
+  "description": "A set of icons crafted with love by Altair.",
   "author": "Altair Interactive, Inc.",
   "homepage": "https://github.com/altairtv/nymeia/tree/master/packages/alticons#readme",
   "license": "MIT",
-  "main": "lib/alticons.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "sideEffects": false,
   "files": [
-    "lib"
+    "index.scss",
+    "build"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/altairtv/nymeia.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "prepare": "npm run build && npm run bundle",
+    "build": "node ./script/build.js",
+    "bundle": "microbundle --no-compress",
+    "watch": "microbundle watch --no-compress"
   },
   "bugs": {
     "url": "https://github.com/altairtv/nymeia/issues"
   },
-  "devDependencies": {}
+  "dependencies": {
+    "object-assign": "^4.1.1"
+  }
 }
