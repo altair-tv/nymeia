@@ -2,7 +2,7 @@
   "name": "@nymeia/alticons",
   "version": "0.0.0",
   "description": "> TODO: description",
-  "author": "Bryan Veloso <bryan@avalonstar.com>",
+  "author": "Altair Interactive, Inc.",
   "homepage": "https://github.com/altairtv/nymeia/tree/master/packages/alticons#readme",
   "license": "MIT",
   "main": "lib/alticons.js",
@@ -22,5 +22,6 @@
   },
   "bugs": {
     "url": "https://github.com/altairtv/nymeia/issues"
-  }
+  },
+  "devDependencies": {}
 }
