@@ -1,10 +1,11 @@
-.cache
-public
-package-lock.json
-node_modules
-dist
+build
 coverage
+dist
+node_modules
+package-lock.json
+public
+.cache
 .DS_Store
-.rts2_cache*
 .idea
+.rts2_cache*
 .vscode
