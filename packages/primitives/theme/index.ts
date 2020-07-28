@@ -1,9 +1,7 @@
-import colors from '../primitives/colors'
-import typography from '../primitives/typography'
+import foundations from '../foundations'
 
 const theme = {
-  colors,
-  ...typography,
+  ...foundations
 }
 
 export type Theme = typeof theme

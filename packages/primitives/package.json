@@ -10,8 +10,8 @@
   "files": [
     "index.js",
     "index.d.ts",
-    "primitives/*.js",
-    "primitives/*.d.ts",
+    "foundations/*.js",
+    "foundations/*.d.ts",
     "theme/*.js",
     "theme/*.d.ts"
   ],
