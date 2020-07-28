@@ -6,7 +6,7 @@
     "build:icons": "node ./script/build.js --input assets/icons/**/*.svg --output build/data.json && cp -r assets/icons build/svg",
     "clean": "node ./scripts/clean.js",
     "format": "prettier --write \"**/*.js{,on}\" \"**/*.md\"  \"**/*.mdx\"",
-    "svgo": "svgo icons --config .svgo.yml",
+    "svgo": "svgo assets/icons --config .svgo.yml",
     "alticons:node": "yarn workspace @nymeia/alticons",
     "alticons:react": "yarn workspace @nymeia/alticons-react"
   },
