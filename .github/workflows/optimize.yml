@@ -8,7 +8,7 @@ jobs:
       - uses: actions/setup-node@main
         with:
           node-version: '10.x'
-      - run: npm install
+      - run: npm install svgo
       - run: npm run svgo
       - uses: EndBug/add-and-commit@v4
         with:
