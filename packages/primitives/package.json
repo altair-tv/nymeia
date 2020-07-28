@@ -1,0 +1,33 @@
+{
+  "name": "@nymeia/primitives",
+  "version": "1.0.1",
+  "description": "Basic themeing primitives for the Nymeia design system.",
+  "author": "Altair Interactive, Inc.",
+  "homepage": "https://github.com/altairtv/nymeia/tree/master/packages/primitives#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "primitives/*.js",
+    "primitives/*.d.ts",
+    "theme/*.js",
+    "theme/*.d.ts"
+  ],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altairtv/nymeia.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build"
+  },
+  "bugs": {
+    "url": "https://github.com/altairtv/nymeia/issues"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
