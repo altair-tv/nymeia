@@ -21,7 +21,7 @@
     "url": "git+https://github.com/altairtv/nymeia.git"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -b",
     "prepare": "yarn build"
   },
   "bugs": {

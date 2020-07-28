@@ -1,5 +1,9 @@
-import { colors } from '../primitives/colors'
+import colors from '../primitives/colors'
 
-export const theme = {
+const theme = {
   colors,
 }
+
+export type Theme = typeof theme
+
+export default theme
