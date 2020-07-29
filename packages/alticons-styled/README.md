@@ -1,11 +1,3 @@
-# `alticons-styled`
+# @nymeia/styled-alticons
 
-> TODO: description
-
-## Usage
-
-```
-const alticonsStyled = require('alticons-styled');
-
-// TODO: DEMONSTRATE API
-```
+[![npm version](https://img.shields.io/npm/v/@nymeia/styled-alticons.svg)](https://www.npmjs.org/package/@nymeia/styled-alticons)
