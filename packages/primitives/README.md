@@ -1,13 +1,13 @@
 # @nymeia/primitives
 
-This repository contains values for color, spacing, typography, and other primitives for use with Nymeia, Altair's design system.
+This repository contains values for color, sizing, typography, and other primitives for use with Nymeia, Altair's design system.
 
 ## Usage
 
-Nymeia's primitives are exported as keys on the top-level export. `colors`, `spacing`, and `typography` are available:
+Nymeia's primitives are exported as keys on the top-level export. `colors`, `sizes`, and `typography` are available:
 
 ```js
-import { colors, spacing, typography } from '@nymeia/primitives'
+import { colors, sizes, typography } from '@nymeia/primitives'
 ```
 
 Additionally, a `theme` is exported, which is a great way of sharing system styles with [Emotion][]. Pass the theme preset to Emotion's `ThemeProvider` component at the root of your application.

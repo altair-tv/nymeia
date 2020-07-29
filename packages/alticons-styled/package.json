@@ -44,5 +44,6 @@
     "react-dom": "^16.13.1",
     "rollup": "^2.23.0",
     "typescript": "^3.9.7"
-  }
+  },
+  "gitHead": "5756a67f6eeac962d1bbd9979484a3427cfd9f8d"
 }
