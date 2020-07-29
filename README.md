@@ -6,11 +6,12 @@
 
 This repository is a monorepo that we manage using [Lerna](https://github.com/lerna/lerna). That means that we actually publish [several packages](/packages) to npm from the same codebase, including:
 
-| Package                                                                                                       | Version                                                                                                                         |
-| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| **[@nymeia/alticons](/packages/alticons-node)**<br />Alticons for Node.js with Javascript API.                | [![npm version](https://img.shields.io/npm/v/@nymeia/alticons.svg)](https://www.npmjs.org/package/@nymeia/alticons)             | 
-| **[@nymeia/alticons-react](/packages/alticons-react)**<br />Componentized Alticons for React.                 | [![npm version](https://img.shields.io/npm/v/@nymeia/alticons-react.svg)](https://www.npmjs.org/package/@nymeia/alticons-react) |
-| **[@nymeia/primitives](/packages/primitives)**<br />Basic themeing primitives (colors, spacing, typography).  | [![npm version](https://img.shields.io/npm/v/@nymeia/primitives.svg)](https://www.npmjs.org/package/@nymeia/primitives) |
+| Package                                                                                                        | Version                                                                                                                           |
+| -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **[@nymeia/alticons](/packages/alticons-node)**<br />Alticons for Node.js with Javascript API.                 | [![npm version](https://img.shields.io/npm/v/@nymeia/alticons.svg)](https://www.npmjs.org/package/@nymeia/alticons)               | 
+| **[@nymeia/alticons-react](/packages/alticons-react)**<br />Componentized Alticons for React.                  | [![npm version](https://img.shields.io/npm/v/@nymeia/alticons-react.svg)](https://www.npmjs.org/package/@nymeia/alticons-react)   |
+| **[@nymeia/styled-alticons](/packages/alticons-styled)**<br />Componentized Alticons with Styled System props. | [![npm version](https://img.shields.io/npm/v/@nymeia/styled-alticons.svg)](https://www.npmjs.org/package/@nymeia/styled-alticons) |
+| **[@nymeia/primitives](/packages/primitives)**<br />Basic themeing primitives (colors, spacing, typography).   | [![npm version](https://img.shields.io/npm/v/@nymeia/primitives.svg)](https://www.npmjs.org/package/@nymeia/primitives)           |
 
 
 ## License
