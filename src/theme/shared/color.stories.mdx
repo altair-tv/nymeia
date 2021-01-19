@@ -1,0 +1,67 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs/blocks'
+
+import { colors } from './colors'
+
+<Meta title="Design System/Colors" />
+
+# Colors
+
+## Spectrum
+
+<ColorPalette>
+  <ColorItem
+    title="Red"
+    subtitle="100-800"
+    colors={Object.values(colors.red)}
+  />
+  <ColorItem
+    title="Orange"
+    subtitle="100-800"
+    colors={Object.values(colors.orange)}
+  />
+  <ColorItem
+    title="Yellow"
+    subtitle="100-800"
+    colors={Object.values(colors.yellow)}
+  />
+  <ColorItem
+    title="Green"
+    subtitle="100-800"
+    colors={Object.values(colors.green)}
+  />
+  <ColorItem
+    title="Turquoise"
+    subtitle="100-800"
+    colors={Object.values(colors.turquoise)}
+  />
+  <ColorItem
+    title="Blue"
+    subtitle="100-800"
+    colors={Object.values(colors.blue)}
+  />
+  <ColorItem
+    title="Purple"
+    subtitle="100-800"
+    colors={Object.values(colors.purple)}
+  />
+  <ColorItem
+    title="Pink"
+    subtitle="100-800"
+    colors={Object.values(colors.pink)}
+  />
+</ColorPalette>
+
+## Monochrome
+
+<ColorPalette>
+  <ColorItem
+    title="Black"
+    subtitle="100-800"
+    colors={Object.values(colors.black)}
+  />
+  <ColorItem
+    title="Gray"
+    subtitle="100-800"
+    colors={Object.values(colors.gray)}
+  />
+</ColorPalette>
