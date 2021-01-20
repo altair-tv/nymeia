@@ -8,6 +8,7 @@ import {
   Text,
   HStack
 } from '@chakra-ui/react'
+import type { StackProps } from '@chakra-ui/react'
 import React from 'react'
 import type { FC } from 'react'
 
@@ -28,7 +29,7 @@ export const ChatGroup: FC<ChatGroupProps> = props => {
   )
 }
 
-export const ChatAuthor: FC = props => {
+export const ChatAuthor: FC<StackProps> = props => {
   const styles = useStyles()
   return <HStack spacing={2} sx={styles.author} {...props} />
 }

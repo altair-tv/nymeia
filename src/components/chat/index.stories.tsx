@@ -1,3 +1,4 @@
+import { RocketIcon } from '@altair-tv/alticons-chakra'
 import React from 'react'
 
 import {
@@ -8,7 +9,7 @@ import {
   ChatUserPronouns
 } from '.'
 
-import { ChatBadge } from './badge'
+import { ModeratorBadge, SupporterBadge } from './badge'
 
 export default {
   title: 'Chat'
@@ -18,9 +19,9 @@ export const Overview = args => (
   <ChatGroup {...args}>
     <ChatMessage>
       <ChatTimestamp>1 minute ago</ChatTimestamp>
-      <ChatAuthor>
-        <ChatBadge />
-        <ChatBadge />
+      <ChatAuthor color="turquoise.300">
+        <ModeratorBadge />
+        <SupporterBadge />
         <ChatUserPronouns pronouns={['She', 'Her']} />
         <span>Hypnotik:</span>
       </ChatAuthor>
@@ -33,8 +34,8 @@ export const Overview = args => (
     </ChatMessage>
     <ChatMessage>
       <ChatTimestamp>Just now</ChatTimestamp>
-      <ChatAuthor>
-        <ChatBadge />
+      <ChatAuthor color="blue.300">
+        <SupporterBadge />
         <ChatUserPronouns pronouns={['He', 'Him']} />
         <span>Avalonstar:</span>
       </ChatAuthor>
@@ -43,7 +44,7 @@ export const Overview = args => (
     </ChatMessage>
     <ChatMessage>
       <ChatTimestamp>Just now</ChatTimestamp>
-      <ChatAuthor>
+      <ChatAuthor color="red.300">
         <span>Ollie:</span>
       </ChatAuthor>
       I just caught the stream in time today! I finish work earlier tomorrow so

@@ -7,9 +7,11 @@
     "build": "next build",
     "start": "next start",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "chromatic --project-token lwf9a4cw6qb --exit-zero-on-changes"
   },
   "dependencies": {
+    "@altair-tv/alticons-chakra": "../alticons/packages/chakra/",
     "@chakra-ui/react": "^1.1.4",
     "@chakra-ui/theme-tools": "^1.0.3",
     "@emotion/react": "^11.1.4",
@@ -19,8 +21,7 @@
     "framer-motion": "^3.2.1",
     "next": "latest",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-icons": "^4.1.0"
+    "react-dom": "^16.7.0"
   },
   "license": "MIT",
   "devDependencies": {
@@ -32,6 +33,7 @@
     "@storybook/react": "6.1.14",
     "@storybook/theming": "^6.1.14",
     "babel-loader": "^8.0.5",
+    "chromatic": "^5.6.0",
     "eslint-config-xo-react": "^0.23.0",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",

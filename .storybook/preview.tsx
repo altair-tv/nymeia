@@ -1,6 +1,6 @@
+import { DarkModeIcon, LightModeIcon } from '@altair-tv/alticons-chakra'
 import {
   ChakraProvider,
-  extendTheme,
   Flex,
   IconButton,
   useColorMode,
@@ -11,7 +11,6 @@ import '@fontsource/inter/500.css'
 import '@fontsource/inter/600.css'
 import '@fontsource/inter/variable.css'
 import '@storybook/addon-console'
-import { FaMoon, FaSun } from 'react-icons/fa'
 import { withPerformance } from 'storybook-addon-performance'
 
 import { theme } from '../src/theme'
@@ -30,7 +29,7 @@ export const parameters = {
 
 const ColorModeToggleBar = () => {
   const { toggleColorMode } = useColorMode()
-  const SwitchIcon = useColorModeValue(FaMoon, FaSun)
+  const SwitchIcon = useColorModeValue(DarkModeIcon, LightModeIcon)
   const nextMode = useColorModeValue('dark', 'light')
 
   return (

@@ -16,9 +16,9 @@ const baseStyle: StyleInterpolation = ({ colorMode }) => {
       fontSize: 'xs',
       fontWeight: 400,
       textTransform: 'inherit',
-      h: 6,
-      px: 2,
+      pb: '2px',
       pt: '1px',
+      px: 2,
       rounded: 'sm'
     },
     timestamp: {
