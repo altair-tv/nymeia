@@ -24,8 +24,10 @@
   dependencies:
     tunnel "0.0.6"
 
-"@altair-tv/alticons-chakra@../alticons/packages/chakra/":
-  version "0.1.0"
+"@altair-tv/alticons-chakra@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@altair-tv/alticons-chakra/-/alticons-chakra-0.1.1.tgz#ed5ccdcd7b2a581a68f1fe42a3d56ead0f1224db"
+  integrity sha512-fEG2w0nX2E/bWBXpFPxYtxSDHPF2VJOCaclDmfDoOcBWMXUJW2fG7QBUGTz9yr2cU9YKcZJpG0InGP5DNhQR9A==
 
 "@ampproject/toolbox-core@2.7.4", "@ampproject/toolbox-core@^2.7.1-alpha.0":
   version "2.7.4"
